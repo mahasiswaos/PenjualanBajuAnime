@@ -1,0 +1,5 @@
+
+<?php $__env->startSection('content'); ?>
+<a href="<?php echo URL::to('/show');?>" class="btn btn-primary">tombol test</a>
+<?php $__env->stopSection(); ?>
+<?php echo $__env->make('layout.bootstrap3.index', array_except(get_defined_vars(), array('__data', '__path')))->render(); ?>
